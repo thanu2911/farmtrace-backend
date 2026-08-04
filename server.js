@@ -60,8 +60,8 @@ app.post("/products", (req, res) => {
 
 
     res.json({
-        message: "Product added successfully",
-        product: product
+        message: "Product Saved",
+        product
     });
 
 });
